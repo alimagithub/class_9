@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+
+<style>
+@font-face { 
+    font-family:DancingScript-VariableFont;
+    src: url"DancingScript-VariableFont_wght.ttf";
+    src: url "HiMelody.ttf";
+  }
+   
+
+
+h1 {
+    background-color: peachpuff;
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    margin: auto;
+    position: center;
+    
+
+}
+
+.header {
+  text-align: center;
+  padding: 45px;
+}
+
+h2 {
+   font-family: 'Hi Melody', cursive;
+   font-size: 35px;
+    margin: auto;
+
+}
+
+
+ a:link {
+    padding:20px;
+    padding-left:20px;
+}
+
+
+.nav a:hover, .dropdown:hover .dropbtn {
+    background-color: peachpuff;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin right: 40px;
+   overflow: hidden;
+  float: center;
+  padding: 14px 16px;
+   font-family:TimesNewRoman;
+    background-color: yellow;
+    font-color: green;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightgreen;
+}
+
+
+
+.gridimages {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  Padding-top:30px;
+Padding-right:30px;
+Padding-bottom: 30px;
+padding-left: 30px;
+position: absolute;
+}
+
+
+
+
+
+
+  
+
+
+</style>
+
